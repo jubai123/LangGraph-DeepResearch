@@ -1,0 +1,35 @@
+# PDF course materials (not code)
+*.pdf
+
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment & secrets
+.env
+.venv
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
