@@ -1,21 +1,28 @@
 # PDF course materials (not code)
 *.pdf
 
-# Python bytecode & caches
+# Auto-generated diagram PNGs (keep app.png for README)
+*.png
+!app.png
+
+# Byte-compiled / Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.egg-info/
 .pytest_cache/
 .mypy_cache/
+uv.lock
 
 # Node / Frontend
 node_modules/
 frontend/dist/
 frontend/.vite/
+frontend/coverage/
 
 # Environment & secrets
 .env
+backend/.env
 .venv
 venv/
 env/
@@ -23,6 +30,9 @@ env/
 # Logs
 logs/
 *.log
+
+# LangGraph
+backend/.langgraph_api
 
 # IDE
 .idea/
@@ -33,3 +43,4 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+*.local
